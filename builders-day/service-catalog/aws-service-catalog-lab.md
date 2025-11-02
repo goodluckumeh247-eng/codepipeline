@@ -66,7 +66,7 @@ You'll create a Service Catalog portfolio that allows end users to provision S3 
     {
       "Effect": "Allow",
       "Action": [
-        "servicecatalog:CreateProvisionedProduct",
+        "servicecatalog:ProvisionProduct",
         "servicecatalog:UpdateProvisionedProduct",
         "servicecatalog:TerminateProvisionedProduct"
       ],
